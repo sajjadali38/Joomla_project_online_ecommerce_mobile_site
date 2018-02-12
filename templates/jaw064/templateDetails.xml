@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<install type="template" version="1.5">
+  <name>jaw064</name>
+  <creationDate>2010-02-18</creationDate>
+  <version>1.0</version>
+  <authorEmail>support@joomlartwork.com</authorEmail>
+  <author>www.JoomlArtWork.com</author>
+  <authorUrl>www.joomlartwork.com</authorUrl>
+  <copyright>JoomlArtWork.com</copyright>
+	<description><![CDATA[
+	<h1>JoomlArtWork - JAW064</h1>	
+	<img src="../templates/jaw064/template_thumbnail.png" align="left" hspace="10" style="padding-right:10px;"/>
+	<b>This joomla template is made <a target="_blank" href="http://joomlartwork.com">JoomlArtWork.com</a>, released under the <a target="_blank" href="http://www.gnu.org/copyleft/gpl.html">GNU General Public License</a>.
+	<br /> This template can be used for personal or commercial projects, but please keep the footer links intact! If you want to remove footer links, please <a target="_blank" href="http://joomlartwork.com/contact-us">contact us</a> <br />
+	<br/>
+	If you want to learn more about Joomla! or just need some help, visit our <a target="_blank" href="http://joomlartwork.com/joomla-tutorials">joomla tutorials</a> page or join our <a target="_blank" href="http://joomlartwork.com/forum">joomla forum</a>.<br/><br/>
+	<br />Copyright &copy; 2010 JoomlArtWork.com - All Rights Reserved</b>
+	]]></description>
+  <files>
+    <filename>template_thumbnail.png</filename>
+    <filename>component.php</filename>
+    <filename>functions.php</filename>
+    <filename>index.html</filename>
+    <filename>index.php</filename>
+	<filename>favicon.ico</filename>
+    <filename>params.ini</filename>
+    <filename>script.js</filename>
+    <filename>templateDetails.xml</filename>
+	<folder>html</folder>
+	<folder>images</folder>
+	<folder>css</folder>
+  </files>
+  <positions>
+    <position>breadcrumb</position>
+    <position>left</position>
+    <position>right</position>
+    <position>syndicate</position>
+    <position>banner1</position>
+    <position>banner2</position>
+    <position>banner3</position>
+    <position>banner4</position>
+    <position>banner5</position>
+    <position>banner6</position>
+    <position>top1</position>
+    <position>top2</position>
+    <position>top3</position>
+    <position>bottom1</position>
+    <position>bottom2</position>
+    <position>bottom3</position>
+    <position>user1</position>
+    <position>user2</position>
+    <position>user4</position>
+    <position>user5</position>
+    <position>user3</position>
+  </positions>
+	<params>
+		<param name="siteName" type="text" label="Site Name Copyright: " description="Site Name Copyright." size="60" default="My Company"></param>
+		<param name="siteYear" type="text" label="Site Copyright Year: " description="Site Copyright Year." size="60" default="2010"></param>
+	</params>  
+</install>
